@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#sir photo {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 60px;
+}
+
+#welcome {
+    background: linear-gradient(red 10%, yellow 100%);
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    z-index: 9;
+
+}
+
+.parrallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 80px auto;
+}
+
+p {
+    text-align: center;
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: yellow;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.Writing1:hover {
+    color: dodgerblue;
+}
+
+.Writing1 [ font-size:30px;
+
+] .Writing1 a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue;
+    font-size: 35px;
+}
+
+#Apps {
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+}
+
+#Game {
+    width: 100%;
+    height: 800px;
+    background-color: red;
+}
+
+#Game img {
+    transition: transform.2s;
+    height: 420px;
+    width: 400px;
+}
+
+#Game img:hover {
+    transform: scale(0.9);
+}
+
+#Chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
+
+#contacts {
+    background: firebrick;
+
+
+}
+
+.contact a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact h3 {
+    display: inline;
+
+}
+
+#contacts iframe {
+    width: 100%;
+}
